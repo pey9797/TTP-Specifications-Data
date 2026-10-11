@@ -30,4 +30,4 @@ The complete TTP specifications can be provided to **peer reviewers and research
 For access to the full TTP catalogs, please contact:
 
 **[Jiyoung Lee]**  
-**Email:** [choh_56@daegu.ac,kr]
+**Email:** [choh_56@daegu.ac.kr]
