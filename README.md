@@ -1,23 +1,33 @@
-# TTP-Specifications-Data
+## TTP Catalogs and Availability
 
-## Overview (개요)
-This repository contains the Tactics, Techniques, and Procedures (TTP) specification datasets used in the paper: **"[XRange: Designing a Cyber Ranges Platform for the Battle Between TTP-Based Social Media Criminals and Investigator AI Agents]"**. 
-(본 리포지토리는 논문 "[XRange: Designing a Cyber Ranges Platform for the Battle Between TTP-Based Social Media Criminals and Investigator AI Agents]"에서 정의 및 사용된 TTP 명세 데이터를 포함하고 있습니다.)
+XRange uses three structured TTP catalogs to define the behaviors referenced by its agents.
 
-## Dataset Description (데이터 구성)
-The dataset is provided in Excel format and consists of the following files:
-(데이터셋은 엑셀 파일로 제공되며 다음의 내용들을 포함합니다:)
+- **XR-P**: shared posting behaviors  
+  - 12 Tactics
+  - 29 Techniques
+  - 18 Procedures
 
-*   **`XRange_criminal TTP.xlsx`**: [범죄자 또는 공격자 모델의 TTP 명세]
-*   **`XRange_investigation TTP.xlsx`**: [조사 및 분석 과정에 적용된 TTP 명세]
-*   **`XRange_platform_post TTP.xlsx`**: [플랫폼 게시물 또는 관련된 TTP 명세]
+- **XR-C**: criminal-purpose behaviors  
+  - 16 Tactics
+  - 37 Techniques
+  - 41 Procedures
 
-## How to Cite (인용 방법)
-If you use this dataset in your research, please cite our paper:
-(본 데이터를 연구에 활용할 경우, 아래와 같이 논문을 인용해 주시기 바랍니다.)
+- **XR-I**: investigative actions for detection, tracing, and response  
+  - 8 Tactics
+  - 32 Techniques
+  - 21 Procedures
 
-> [J.Y. Lee, E. Y. Park]. (2027). [XRange: Designing a Cyber Ranges Platform for the Battle Between TTP-Based Social Media Criminals and Investigator AI Agents]. [CCNC명]. 
-> GitHub Repository: https://github.com/pey9797/TTP-Specifications-Data
+Each TTP is represented as a structured catalog entry with a unique identifier, definition, and explicit relationships among tactics, techniques, and procedures.  
+The catalogs are referenced by the XRange agents during scenario execution rather than being used only as descriptive labels.
 
-## Contact (문의)
-For any questions regarding the dataset or the paper, please contact: [choh_56@daegu.ac.kr]
+### Availability of the Full TTP Specifications
+
+The complete TTP catalogs are **not included in this public repository** because they contain detailed specifications of crime-related behaviors that could potentially be misused if released without restriction.
+
+For transparency and reproducibility, this repository provides the overall catalog structure and representative examples.  
+The complete TTP specifications can be provided to **peer reviewers and researchers for academic validation and reproducibility purposes upon reasonable request**.
+
+For access to the full TTP catalogs, please contact:
+
+**[Jiyoung Lee]**  
+**Email:** [choh_56@daegu.ac,kr]
